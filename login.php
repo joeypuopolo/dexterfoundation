@@ -2,10 +2,10 @@
 session_start();
 require_once 'donate_button.php';
 
-$db_hostname = 'mysql.dexterfoundation.com';
-$db_database = 'dexterfoundation';
-$db_username = 'giuseppepuopolo';
-$db_password = 'dairymilkisbad';
+$db_hostname = '#####';
+$db_database = '#####';
+$db_username = '#####';
+$db_password = '#####';
 
 
 $PIC_PATH = "/img/doggies/";
@@ -27,8 +27,8 @@ $rows = mysql_num_rows($result);
 $adminData = mysql_fetch_row($result);
 
 $MAIN_EMAIL = $adminData[2];
-// $MAIN_EMAIL = 'jwyvp5@gmail.com';
-$DEFAULT_EMAIL = 'contactus@dexterfoundation.com';
+// $MAIN_EMAIL = '#####';
+$DEFAULT_EMAIL = '#####@#####.com';
 
 function toString($var) {
   return (string)$var;
